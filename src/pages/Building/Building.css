@@ -1,0 +1,8 @@
+.building-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.building-body{
+    display: flex;
+}

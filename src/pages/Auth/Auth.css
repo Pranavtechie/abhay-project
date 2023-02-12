@@ -1,0 +1,32 @@
+.auth-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--sky);
+}
+
+
+
+.auth-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-main-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-main-2 .auth-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    background-color: var(--royal);
+}

@@ -1,0 +1,41 @@
+.popup-content{
+    z-index: 10;
+    width: 20vw;
+    height: 28vh;
+    border-radius: 5px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 5px;
+    transform: translate(0, -50%);
+    /* border: 1px solid black; */
+    background-color: rgb(116, 83, 138);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.popup-content .fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.popup-content .fa-check-circle{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.addbuilding-field{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:950px) {
+    .popup-content{
+        width: 24vw;
+        font-size: 1rem;
+    }
+}

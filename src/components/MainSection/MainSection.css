@@ -1,0 +1,9 @@
+.mainsection-main{
+    flex-grow: 5;
+}
+
+@media screen and (max-width: 460px) {
+    .mainsection-hide{
+        display: none;
+    }
+}
